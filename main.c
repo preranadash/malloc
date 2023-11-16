@@ -8,7 +8,7 @@ int main() {
 
     // Assign values to the elements of the array
     for (int i = 0; i < 100; ++i) {
-        arr[i] = (i+1)*(i-1);
+        arr[i] = (i+1)*(i+1);
     }
 
     // Calculate mean and variance using the function
