@@ -12,7 +12,7 @@ int main() {
         printf("Before assignment, arr[%d]: %.2f\n", i, arr[i]);
 
         // Assign values to the elements of the array
-        arr[i] = 12 + i * 10;
+        arr[i] = (i+1)*(i+1);
 
         // Print value after assignment
         printf("After assignment, arr[%d]: %.2f\n", i, arr[i]);
